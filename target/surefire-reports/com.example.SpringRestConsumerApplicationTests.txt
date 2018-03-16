@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.example.SpringRestConsumerApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 4.712 s <<< FAILURE! - in com.example.SpringRestConsumerApplicationTests
+contextLoads(com.example.SpringRestConsumerApplicationTests)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: java.lang.IllegalStateException: Failed to execute CommandLineRunner
+Caused by: org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8080/persons/1": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+Caused by: java.net.ConnectException: Connection refused: connect
+

@@ -1,0 +1,3 @@
+com\example\SpringRestConsumerApplication.class
+com\model\Person.class
+com\client\CallRestService.class
